@@ -1,30 +1,70 @@
-# 🚩 SoundApp - Modern Text-to-Speech Repeater
+# Getting Started with Create React App
 
-**SoundApp** ek powerful aur stylish single-page React application hai jo browser ki built-in **Web Speech API** ka use karke text-to-speech functionality provide karta hai. Isme user-defined repetition logic, activity history, aur ek premium **Dark Glassmorphism** UI diya gaya hai.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## ✨ Key Features
+In the project directory, you can run:
 
-- 🔊 **Infinite Voice Loop:** Aap jo bhi text input karenge, app use aapki set ki gayi limit tak repeat karega.
-- 🕒 **Activity Tracking:** Ek dynamic sidebar jo aapki voice commands ki history (Text, Count, aur Timestamp) ko track karta hai.
-- 👤 **User Dashboard UI:** Navigation bar ke saath personalized welcome message aur admin badge.
-- 🛑 **Instant Stop:** Kisi bhi waqt voice loop ko beech mein rokne ke liye dedicated stop button.
-- 🎨 **Glassmorphism Design:** Modern Dark Theme jisme blur effects, neon glow, aur smooth animations ka use kiya gaya hai.
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 🛠️ Tech Stack
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **Frontend:** React.js (Hooks like `useState`, `useEffect`)
-- **Styling:** CSS3 (Modern Glassmorphism, CSS Gradients, Flexbox/Grid)
-- **API:** Web Speech Synthesis API (Native Browser Support)
-- **Icons/Fonts:** Poppins Font, Emoji Icons
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 🚀 Getting Started
+### `npm run build`
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/sound-repeater-app.git](https://github.com/your-username/sound-repeater-app.git)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

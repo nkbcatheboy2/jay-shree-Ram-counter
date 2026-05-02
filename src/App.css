@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-wrapper {
+  min-height: 100vh;
+  background: radial-gradient(circle at top right, #1e293b, #0f172a, #000000);
+  color: #f8fafc;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Glassy Navbar */
+.navbar {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: 800;
+  background: linear-gradient(to right, #ff4500, #ff8c00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+}
+
+.user-badge {
+  background: linear-gradient(45deg, #ff4500, #ff8c00);
+  color: white;
+  padding: 4px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(255, 69, 0, 0.3);
+}
+
+/* Grid Layout */
+.container {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 40px;
+}
+
+/* Glass Cards */
+.card, .history-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  padding: 35px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  border-color: rgba(255, 69, 0, 0.4);
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+/* Neon Inputs */
+.input-group label {
+  color: #94a3b8;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.input-group input {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 15px;
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #ff4500;
+  box-shadow: 0 0 15px rgba(255, 69, 0, 0.2);
+  outline: none;
+}
+
+/* Action Buttons */
+.btn-container {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-start {
+  flex: 2;
+  background: linear-gradient(45deg, #ff4500, #ff8c00);
+  border: none;
+  color: white;
+  padding: 16px;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.btn-start:hover:not(:disabled) {
+  box-shadow: 0 8px 25px rgba(255, 69, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.btn-stop {
+  flex: 1;
+  background: transparent;
+  border: 1.5px solid #ef4444;
+  color: #ef4444;
+  padding: 16px;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-stop:hover {
+  background: #ef4444;
+  color: white;
+}
+
+/* History List */
+.history-item {
+  background: rgba(255, 255, 255, 0.03);
+  border-left: 4px solid #ff4500;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-text {
+  font-size: 15px;
+  color: #e2e8f0;
+  font-weight: 600;
+}
+
+.item-time {
+  font-size: 11px;
+  color: #64748b;
+  display: block;
+}
+
+.item-count {
+  font-weight: 800;
+  color: #ff8c00;
+}
+
+@media (max-width: 768px) {
+  .content-grid { grid-template-columns: 1fr; }
+  .navbar { padding: 0 20px; }
+}
